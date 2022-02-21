@@ -3,9 +3,9 @@ name: Task template
 about: Tasks are small units of work that can be completed in a single sprint
 title: 'DrinkApp'
 labels: task
-assignees: '@Mrjay(Jaybabaa) homepage and product page.
-@i-f-r-a-h contact us, dropdown nav and cart.
-@ijayhub- login and gallery page, header and footer.'
+assignees: '@Mrjay(Jaybabaa)- homepage and product page.
+@i-f-r-a-h-contact us, dropdown nav and cart.
+@ijayhub-login,gallery page, header and footer.'
 
 ---
 
