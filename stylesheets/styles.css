@@ -129,7 +129,7 @@ input[type=text] {
 .contact {
   padding: 100px 0;
   margin: auto;
-  margin-bottom: 2000px;
+  margin-bottom: 100px;
   max-width: 1400px;
 }
 
@@ -138,12 +138,41 @@ input[type=text] {
   text-align: center;
 }
 
+.contact .contact-subheading {
+  text-align: center;
+}
+
 .contact .contact-form {
   padding: 50px 0;
+  width: 70%;
 }
 
 .contact .contact-newsletter {
-  width: 60%;
+  width: 70%;
+  padding: 40px 50px;
   margin: 100px auto;
+}
+
+.contact .contact-newsletter h2 {
+  text-align: center;
+}
+
+.contact .card-group {
+  width: 70% !important;
+  margin: auto;
+  gap: 20px;
+}
+
+.contact .card-group .card {
+  border: none;
+}
+
+.contact .card-group .card-text {
+  list-style: none;
+}
+
+.contact .card-group .card-body {
+  border: 1px solid rgba(128, 128, 128, 0.431);
+  border-radius: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
