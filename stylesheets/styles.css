@@ -1,3 +1,12 @@
+/**
+ * Set up a decent box model on the root element
+ */
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
 *,
 *::before,
 *::after {
@@ -7,6 +16,12 @@
           box-sizing: border-box;
 }
 
+/**
+ * Basic styles for links
+ */
+/**
+ * Basic typography style for copy text
+ */
 .bg-nav {
   background-color: #404040;
 }
@@ -109,5 +124,26 @@ input[type=text] {
   .arrow1 {
     display: none;
   }
+}
+
+.contact {
+  padding: 100px 0;
+  margin: auto;
+  margin-bottom: 2000px;
+  max-width: 1400px;
+}
+
+.contact .contact-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.contact .contact-form {
+  padding: 50px 0;
+}
+
+.contact .contact-newsletter {
+  width: 60%;
+  margin: 100px auto;
 }
 /*# sourceMappingURL=styles.css.map */
