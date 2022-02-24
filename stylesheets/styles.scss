@@ -1,90 +1,31 @@
-*, 
-*::before,
- *::after{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-.bg-nav{
-    background-color: #404040;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #404040;
-    color: white;
-}
+@charset "UTF-8";
 
-::placeholder {
-    color: #fff;
-    font-size: 11px;
-    font-family: sans-serif;
-}
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
 
-input[type=text] {
-    width: 120%;
-    background-color: #363636;
-}
-.arrow {
-    position: relative;
-}
-.arrow1 {
-    position: absolute;
-    top: 15;
-    left: 10 ;
-}
-.login-box{
-    width:320px;
-    height:420px;
-    color: #404040;
-    top:40%;
-    left:50%;
-    position:absolute;
-    transform: translate(-50%,-50%);
-    padding:70px 30px;
-}
-.login-box input{
-    width:100%;
-    margin-bottom: 20px;
-}
-.login-box input[type="email"],
-.login-box input[type="password"]{
-    border:none;
-    border-bottom: 1px solid #404040;
-    background-color: transparent;
-    outline:none;
-    height:40px;
-    color: #363636;
-    font-size: 16px;
-}
-.login-box input[type="submit"]{
-    border:none;
-    outline:none;
-    height:40px;
-    background-color:#3E3E3E;
-    color:#fff;
-    font-size:18px;
-    border-radius: 10px;
-    width:50%;
-    font-weight: bold;
-    
-}
+// 2. Vendors
 
+// 3. Base stuff
+@import
+  'base/base',
+  'base/typography',
+  'base/helpers';
 
-@media screen and (max-width:600px) {
-    input[type=text] {
-        width: 100%;
-    }
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
 
-    .tag {
-        font-size: 11px;
-    }
+// 5. Components
+@import
+  'components/button';
 
-    .arrow1 {
-        display: none;
-    }
-}
+// 6. Page-specific styles
+@import
+  'pages/home',
+  'pages/contact';
 
 

@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the contact page
+// -----------------------------------------------------------------------------
+.contact {
+    padding: 100px 0;
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 1400px;
+
+    //heading
+    .contact-heading {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    //subheading{
+        .contact-subheading{
+            text-align: center;
+        }
+
+
+    //form
+    .contact-form {
+        padding: 50px 0;
+        width: 70%;
+    }
+
+    .contact-newsletter {
+        h2 {
+            text-align: center;
+        }
+
+        width: 70%;
+        padding: 40px 50px;
+        margin: 100px auto;
+    }
+
+
+    .card-group {
+        width: 70% !important;
+        margin: auto;
+        gap: 20px;
+
+        .card {
+            border: none;
+        }
+        .card-text{
+            list-style: none;
+        }
+        .card-body{
+            border: 1px solid rgba(128, 128, 128, 0.431);
+            border-radius: 15px;
+        }
+    }
+}
