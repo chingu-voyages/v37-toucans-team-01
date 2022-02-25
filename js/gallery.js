@@ -106,7 +106,7 @@ let drinks = [
 	},
 	{
 		name: 'Belle & co sparkling wine',
-		img: 'wine 4b.jpg',
+		img: 'wine4.jpg',
 		price: '$5.35 ',
 		id: 14,
 		button: 'Add to Cart',
