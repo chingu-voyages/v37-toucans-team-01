@@ -12,7 +12,7 @@
         "layout/_header.scss",
         "layout/_footer.scss",
         "components/_button.scss",
-        "pages/_home.scss",
+        "pages/_homepage.scss",
         "pages/_gallery.scss",
         "pages/_contact.scss"
     ],
