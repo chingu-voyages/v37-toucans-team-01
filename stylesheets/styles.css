@@ -190,4 +190,17 @@ a {
   border: 1px solid rgba(128, 128, 128, 0.431);
   border-radius: 15px;
 }
+@media screen and (max-width:600px) {
+  .toucans {
+    font-size: 11px;
+  }
+
+}
+@media screen and (max-width:600px) {
+  .toucans {
+    font-size: 11px;
+  }
+
+}
+
 /*# sourceMappingURL=styles.css.map */
