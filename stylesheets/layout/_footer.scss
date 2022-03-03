@@ -1,8 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
-.bg-nav{
+
+.bg-footer{
     background-color: #404040;
+    color: white;
 }
 .footer {
     position: fixed;
@@ -31,44 +33,6 @@ input[type=text] {
     top: 15;
     left: 10 ;
 }
-.login-box{
-    width:320px;
-    height:420px;
-    color: #404040;
-    top:40%;
-    left:50%;
-    position:absolute;
-    transform: translate(-50%,-50%);
-    padding:70px 30px;
-}
-.login-box input{
-    width:100%;
-    margin-bottom: 20px;
-}
-.login-box input[type="email"],
-.login-box input[type="password"]{
-    border:none;
-    border-bottom: 1px solid #404040;
-    background-color: transparent;
-    outline:none;
-    height:40px;
-    color: #363636;
-    font-size: 16px;
-}
-.login-box input[type="submit"]{
-    border:none;
-    outline:none;
-    height:40px;
-    background-color:#3E3E3E;
-    color:#fff;
-    font-size:18px;
-    border-radius: 10px;
-    width:50%;
-    font-weight: bold;
-    
-}
-
-
 @media screen and (max-width:600px) {
     input[type=text] {
         width: 100%;
@@ -81,5 +45,9 @@ input[type=text] {
     .arrow1 {
         display: none;
     }
+    .toucans{
+        font-size: 11px;
+    }
+
 }
 
