@@ -43,7 +43,7 @@
 			</div>
             <div class="mx-sm-5 d-none d-md-block d-lg-block">
                 <img src="./Icons/search.svg" alt="search" class="mx-2">
-                <img src="./Icons/cart.svg" alt="cart" class="mx-2 ">
+                <img src="./Icons/cart.svg" alt="cart" class="mx-2">
                 <img src="./Icons/person-circle.svg" alt="user" class="mx-2 ">
             </div>
 		</nav>
@@ -51,8 +51,8 @@
     <main>
         <div class="container">
             <div class="gallery-title text-center mt-5 pt-5 mb-5">
-                <h2>Gallery of drinks</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                <h2 class="text-danger display-5 fw-bold">Drinks</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
                 sed quibusdam hic minus laborum! Odio consequuntur eos 
                 beatae repudiandae, totam modi recusandae, provident
                 explicabo tenetur dolore cupiditate similique dignissimos cum.</p>
@@ -77,16 +77,28 @@
             <section class="drinks" >
             
                 <div class="row" id="gallery-drinks">
-                    
+                    <div class="col-md-4">
+                        <div class="card h-75 my-5">
+                            <p class="card-text text-center h3 text-muted mt-2">Busch</p>
+                            <img src="assets/images/products/beer1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-muted pb-2 fw-bold ">$16.73</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <button type="button" class="btn btn-outline-secondary btn-lg p-2 carts">Add to cart</button>
+                            <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="contact.html" target="_blank" class="text-danger text-decoration-none fs-6">Read More</a></button>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section class="recently-viewed bg-light">
+            <section class="recently-viewed bg-light my-5">
             <div>
-                <h3 class="text-center text-danger mt-3 display-5 ">Recently Viewed</h3>
+                <h3 class="text-center text-danger display-5 ">Recently Viewed</h3>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="assets/images/products/wine3.jpg" class="d-block w-25" alt="...">
+                            <img src="assets/images/products/wine6.png" class="d-block w-25" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src="assets/images/products/beverage5.jpg" class="d-block w-25" alt="...">
@@ -105,12 +117,13 @@
                     </button>
                 </div>
             </div>
+            
             </section>
         </div>
         <section class="bg-feedback py-2">
             <div class="text-center">
                 <h4 class="fw-bold">We’d love to hear what you think!</h4>
-                <button type="button" class="text-black btn btn-outline-secondary btn-lg p-2 rounded-pill">Give a feedback</button>
+                <button type="button" class="text-black btn btn-outline-secondary btn-lg p-3 rounded-pill">Give a feedback</button>
             </div>
         </section>
     </main>
@@ -144,10 +157,10 @@
 			</div>
 		</div>
         <div class="d-flex justify-content-center">
-			<p>Coded with ❤ by v37-Toucans-team-tier-01</p>
+			<p  class="toucans">Coded with ❤ by v37-Toucans-team-tier-01</p>
 		</div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
     <script src="/js/gallery.js"></script>
 </body>
 </html>
