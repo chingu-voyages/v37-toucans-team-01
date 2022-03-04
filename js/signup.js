@@ -10,7 +10,7 @@ function formValidation(e) {
     e.preventDefault();
     if (email.value === "" || password.value === "" || selectOption.value === "") {
         message.style.color = "red";
-        message.innerHTML = "signup form can not be submitted blank input necessary details"
+        message.innerHTML = "signup form can not be submitted blank input necessary details."
     } else {
         message.style.color = "green";
         message.innerHTML = "sign up form created"
