@@ -169,7 +169,7 @@ drinks.forEach(drink => {
 	
     html += `
         <div class="col-md-4">
-            <div class="card h-75 my-5 tracking-in-contract "  style="width: 18rem" key=${drink.id} >
+            <div class="card h-75 my-5 tracking-in-contract"  style="width: 18rem" key=${drink.id} >
                 <p class="card-text text-center h3 text-muted mt-2">${drink.name}</p>
                 <img src="assets/images/products/${drink.img}" class="card-img-top transform-card" alt="...">
                 <div class="card-body">
