@@ -178,8 +178,7 @@ drinks.forEach(drink => {
                 </div>
             </div>
 			<div class="d-flex">
-
-                <button type="button" class="btn btn-outline-secondary btn-lg p-2 mx-3 carts">${drink.button}</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg p-2 mx-3 carts">${drink.button}</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="contact.html" target="_blank" class="text-danger text-decoration-none fs-6">${drink.link}</a></button>
 			</div>
 		</div>
