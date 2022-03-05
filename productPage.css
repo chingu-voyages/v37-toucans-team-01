@@ -1,13 +1,14 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 70%;
+    width: 80%;
     font-family: sans-serif;
     color: #363636;
   }
 
   img {
     width: 100%;
+    cursor: pointer;
   }
 
   .img-1 {
@@ -88,6 +89,26 @@ body {
   letter-spacing: 2px;
 }
 
+.r-box {
+  width: 30%;
+  margin: 0 10px;
+  box-shadow: rgba(66, 62, 99, 0.24) 0px 3px 8px;
+}
+
+
+.inner-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.h2-related {
+  text-align: center;
+  margin: 0;
+  margin: 10px 0;
+  font-size: 150%;
+}
+
 
 
   @media screen and (max-width: 1024px) {
@@ -140,6 +161,31 @@ body {
     .minus {
       margin-left: 10px;
     } 
+
+    
+
+    .r-box {
+      width: 30%;
+      margin: 0 10px;
+      
+    }
+    
+    
+    .inner-div {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    
+    
+    .h2-related {
+      text-align: center;
+      margin: 0;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    
   }
 
   @media screen and (max-width: 600px) {
@@ -215,4 +261,29 @@ body {
       border: none;
       
     }
+
+    .r-box {
+      width: 60%;
+      margin: 10px 10px;
+      
+    }
+
+    .inner-div {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .h1-r {
+      font-size: 20px;
+      text-align: center;
   }
+
+  .h2-related {
+    text-align: center;
+    margin: 0;
+    margin: 10px 0;
+    font-size: 20px;
+
+  }
+
+}
