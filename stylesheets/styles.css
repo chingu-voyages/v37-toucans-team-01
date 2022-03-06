@@ -131,16 +131,6 @@ input[type=text] {
   }
 }
 
-.bg-filter,
-.bg-feedback {
-  background-color: #C4C4C4;
-}
-
-.btn,
-a {
-  font-weight: bold;
-}
-
 .contact {
   padding: 100px 0;
   margin: auto;
