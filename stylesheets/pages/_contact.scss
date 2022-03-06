@@ -44,12 +44,17 @@
         .card {
             border: none;
         }
-        .card-text{
-            list-style: none;
-        }
         .card-body{
             border: 1px solid rgba(128, 128, 128, 0.431);
             border-radius: 15px;
+            padding: 30px;
         }
     }
 }
+// i added media query for responsiveness of toucans font-size
+    @media screen and ( max-width:600px )  {
+        .toucans {
+            font-size: 11px;
+        }
+
+    }
