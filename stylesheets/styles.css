@@ -167,12 +167,9 @@ input[type=text] {
   border: none;
 }
 
-.contact .card-group .card-text {
-  list-style: none;
-}
-
 .contact .card-group .card-body {
   border: 1px solid rgba(128, 128, 128, 0.431);
   border-radius: 15px;
+  padding: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
