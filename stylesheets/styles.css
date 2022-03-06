@@ -134,14 +134,32 @@ input[type=text] {
   }
 }
 
-.bg-filter,
-.bg-feedback {
-  background-color: #C4C4C4;
+.about header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
-.btn,
-a {
-  font-weight: bold;
+.about header img {
+  width: 500px;
+}
+
+.about section p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 900px) {
+  .about section p {
+    font-size: 20px;
+    line-height: 1.7;
+  }
 }
 
 .transform-card:hover {
@@ -233,17 +251,10 @@ a {
   border-radius: 15px;
   padding: 30px;
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width: 600px) {
   .toucans {
     font-size: 11px;
   }
-
 }
-@media screen and (max-width:600px) {
-  .toucans {
-    font-size: 11px;
-  }
-
-}
-
 /*# sourceMappingURL=styles.css.map */
