@@ -17,6 +17,7 @@
 // 4. Layout-related sections
 @import
   'layout/header',
+  'layout/login',
   'layout/footer';
 
 // 5. Components
@@ -25,7 +26,9 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home',
+  'pages/homepage',
+  'pages/gallery',
   'pages/contact';
+
 
 
