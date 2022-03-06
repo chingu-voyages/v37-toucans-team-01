@@ -13,4 +13,4 @@ in your `readme` feel free to replace the text we've provided here.
 
 > Own it & Make it your Own!
 
-link:- https://chingu-voyages.github.io/v37-toucans-team-01/
+header and footer only:- https://chingu-voyages.github.io/v37-toucans-team-01/

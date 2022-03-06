@@ -15,6 +15,7 @@
         "components/_button.scss",
         "pages/_homepage.scss",
         "pages/_about.scss",
+        "pages/_gallery.scss",
         "pages/_contact.scss"
     ],
     "names": [],
