@@ -1,0 +1,260 @@
+/**
+ * Set up a decent box model on the root element
+ */
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Basic styles for links
+ */
+/**
+ * Basic typography style for copy text
+ */
+.bg-nav {
+  background-color: #404040;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  color: #404040;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 70px 30px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #404040;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  color: #363636;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #3E3E3E;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 50%;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #404040;
+  color: white;
+}
+
+.bg-footer {
+  background-color: #404040;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+input[type=text] {
+  width: 120%;
+  background-color: #363636;
+}
+
+.arrow {
+  position: relative;
+}
+
+.arrow1 {
+  position: absolute;
+  top: 15;
+  left: 10;
+}
+
+@media screen and (max-width: 600px) {
+  input[type=text] {
+    width: 100%;
+  }
+  .tag {
+    font-size: 11px;
+  }
+  .arrow1 {
+    display: none;
+  }
+  .toucans {
+    font-size: 11px;
+  }
+}
+
+.about header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.about header img {
+  width: 500px;
+}
+
+.about section p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 900px) {
+  .about section p {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+}
+
+.transform-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*
+ * ----------------------------------------
+ * animation tracking-in-contract
+ * ----------------------------------------
+ */
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+.contact {
+  padding: 100px 0;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1400px;
+}
+
+.contact .contact-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.contact .contact-subheading {
+  text-align: center;
+}
+
+.contact .contact-form {
+  padding: 50px 0;
+  width: 70%;
+}
+
+.contact .contact-newsletter {
+  width: 70%;
+  padding: 40px 50px;
+  margin: 100px auto;
+}
+
+.contact .contact-newsletter h2 {
+  text-align: center;
+}
+
+.contact .card-group {
+  width: 70% !important;
+  margin: auto;
+  gap: 20px;
+}
+
+.contact .card-group .card {
+  border: none;
+}
+
+.contact .card-group .card-body {
+  border: 1px solid rgba(128, 128, 128, 0.431);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .toucans {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

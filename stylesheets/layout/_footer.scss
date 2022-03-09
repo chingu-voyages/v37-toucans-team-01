@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    
+}
+.bg-footer{
+    background-color: #404040;
+    color: white;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+input[type=text] {
+    width: 120%;
+    background-color: #363636;
+}
+.arrow {
+    position: relative;
+}
+.arrow1 {
+    position: absolute;
+    top: 15;
+    left: 10 ;
+}
+
+
+
+@media screen and (max-width:600px) {
+    input[type=text] {
+        width: 100%;
+    }
+
+    .tag {
+        font-size: 11px;
+    }
+
+    .arrow1 {
+        display: none;
+    }
+    .toucans{
+        font-size: 11px;
+    }
+
+}
+
