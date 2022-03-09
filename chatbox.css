@@ -3,14 +3,14 @@ body {
 }
 
 .open-button {
-    background-color: #363636;
-    color: white;
-    padding: 16px 20px;
-    width: 280px;
+   
+
+    
+    background-color: white;
     position: fixed;
     border: none;
     cursor: pointer;
-    opacity: 0.8;
+    
     bottom: 23px;
     right: 28px;
 }
