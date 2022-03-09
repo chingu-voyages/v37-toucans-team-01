@@ -1,123 +1,127 @@
-body {
+
+.product-main {
     margin: 0 auto;
     padding: 0;
     width: 80%;
     font-family: sans-serif;
     color: #363636;
-  }
 
-  img {
-    width: 100%;
-    cursor: pointer;
-  }
 
-  .img-1 {
-    border-radius: 5%;
-    box-shadow: rgba(3, 2, 12, 0.24) 0px 3px 8px;
-    margin-bottom: 4%;
-    cursor: pointer;
-  }
-  
-
-  .box1 {
-    width: 50%;
-    margin-right: 10%;
-  }
-
-  .box2 {
-    width: 50%;
-    margin-top: 3%;
-  }
-  
-  .container {
-    width: 95%;
-    margin: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8%;
-  }
-
-  .add-cart-btn {
-    text-align: center;
-    padding: 9.5px 40px;
-    margin-left: 10px;
-    border-radius: 7px;
-    border: none;
-    background-color: rgb(252, 252, 252);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    cursor: pointer;
- }
-
- .plus-btn {
-    margin: 0;
-    background-color: #363636;
-    text-align: center;
-    padding: 9px 8px;
-    border-radius: 7px;
-    border: none;
-    color: white;
+    img {
+        width: 100%;
+        cursor: pointer;
+      }
+    
+      .img-1 {
+        border-radius: 5%;
+        box-shadow: rgba(3, 2, 12, 0.24) 0px 3px 8px;
+        margin-bottom: 4%;
+        cursor: pointer;
+      }
+      
+    
+      .box1 {
+        width: 50%;
+        margin-right: 10%;
+      }
+    
+      .box2 {
+        width: 50%;
+        margin-top: 3%;
+      }
+      
+      .product-container {
+        width: 95%;
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 8%;
+      }
+    
+      .add-cart-btn {
+        text-align: center;
+        padding: 9.5px 40px;
+        margin-left: 10px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(252, 252, 252);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+     }
+    
+     .plus-btn {
+        margin: 0;
+        background-color: #363636;
+        text-align: center;
+        padding: 9px 8px;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        
+        
+     }
+    
+     .zero {
+      padding: 0 35px;
+      font-size: 12px;
+    }
+    
+     .all {
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    
+    .zero11 {
+      position: absolute;
+      color: #363636;
+      font-size: 70%
+    } 
+    
+    .descrpt {
+      font-size: 1rem;
+      color: #363636;
+      margin: 10% 0%;
+    }
+    
+    .snk-p {
+      font-size: 70%;
+      letter-spacing: 2px;
+    }
+    
+    .r-box {
+      width: 30%;
+      margin: 0 10px;
+      box-shadow: rgba(66, 62, 99, 0.24) 0px 3px 8px;
+    }
     
     
- }
-
- .zero {
-  padding: 0 35px;
-  font-size: 12px;
-}
-
- .all {
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.zero11 {
-  position: absolute;
-  color: #363636;
-  font-size: 70%
-} 
-
-.descrpt {
-  font-size: 1rem;
-  color: #363636;
-  margin: 10% 0%;
-}
-
-.snk-p {
-  font-size: 70%;
-  letter-spacing: 2px;
-}
-
-.r-box {
-  width: 30%;
-  margin: 0 10px;
-  box-shadow: rgba(66, 62, 99, 0.24) 0px 3px 8px;
-}
+    .inner-div {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    
+    .h2-related {
+      text-align: center;
+      margin: 0;
+      margin: 10px 0;
+      font-size: 150%;
+    }
+  }
 
 
-.inner-div {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.h2-related {
-  text-align: center;
-  margin: 0;
-  margin: 10px 0;
-  font-size: 150%;
-}
 
 
 
   @media screen and (max-width: 1024px) {
-    body {
+    .product {
         width: 97%;
         overflow-x: hidden;
       }
 
-      .container {
+      .product-container {
         width: 95%;
         flex-direction: row;
       }
@@ -189,12 +193,12 @@ body {
   }
 
   @media screen and (max-width: 600px) {
-    body {
+    .product-main {
         width: 100%;
         overflow-x: hidden;
       }
 
-      .container {
+      .product-container {
         width: 100%;
         flex-direction: column;
         margin-top: 0;
@@ -287,3 +291,4 @@ body {
   }
 
 }
+
