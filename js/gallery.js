@@ -1,3 +1,5 @@
+
+
 let drinks = [
 	{
 		name: 'Busch Beer',
@@ -25,7 +27,7 @@ let drinks = [
 		button: 'Add to Cart',
 		link: 'Read More'
 		// inCart: 0
-	},
+	}/
 	{
 		name: 'Heineken beer',
 		img: 'beer4.jpg',
@@ -164,6 +166,7 @@ let drinks = [
 ];
 
 let drinksSection = document.querySelector("#gallery-drinks");
+
 let html = "";
 drinks.forEach(drink => {
 	
@@ -179,12 +182,46 @@ drinks.forEach(drink => {
             </div>
 			<div class="d-flex">
 				<button type="button" class="btn btn-outline-secondary btn-lg p-2 mx-3 carts">${drink.button}</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="contact.html" target="_blank" class="text-danger text-decoration-none fs-6">${drink.link}</a></button>
+                <button type="button" class="btn obtn-outline-secondary btn-lg p-2"><a href="productPage.html" target="_blank" class="text-danger text-decoration-none fs-6">${drink.link}</a></button>
 			</div>
 		</div>
     `;
-		drinksSection.innerHTML = html 
+		drinksSection.innerHTML = html
+		 
 });
+
+
+let cart = document.querySelectorAll('.add-cart-btn');
+
+for (let i = 0; i < cart.length; i++) {
+    cart[i].addEventListener('click', () => {
+        cartNumbers();
+    });
+}
+
+
+function cartNumbers() {
+    let productNumbers = localStorage.getItem('cartNumbers')
+    productNumbers = parseInt(productNumbers);
+
+    if (productNumbers) {
+        localStorage.setItem('cartNumbers', productNumbers + 1)
+        document.querySelector('.zero11').textContent = productNumbers + 1;
+    } else {
+        localStorage.setItem('cartNumbers', 1);
+        document.querySelector('.zero11').textContent = 1;
+    }
+
+}
+
+totalClick(click); 
+
+
+
+
+
+
+
 
 
 
