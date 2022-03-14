@@ -4,3 +4,4 @@ const arrowImg = document.querySelector('#arrow-img');
 subscribeForm.addEventListener('keypress', function () {
 	arrowImg.style.opacity = 0;
 });
+
