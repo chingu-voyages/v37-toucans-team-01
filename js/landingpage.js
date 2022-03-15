@@ -32,7 +32,7 @@ let category = [
         category_image: "extras",
         category_name: "Extras"
     }
-]
+];
 
 console.log ('Explore popular categories', category.length)
 
@@ -40,7 +40,7 @@ let divCategory = document.getElementById('category-area');
 let html = "";
     category.forEach(show=> {
         html += `<div class="col-lg-3 col-md-6 col-sm-auto">
-                    <img class="img-fluid w-75 rounded" src="assets/${show.category_image}.jpg" alt="">
+                    <img class="img-fluid w-75 rounded" src="assets/images/homepage/${show.category_image}.jpg" alt="">
                     <p class="text-black font-weight-bold">${show.category_name} <span><img src="icons/arrow-right-short.svg" alt=""></span></p>
                 </div>`
 
