@@ -8,47 +8,206 @@
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 	<link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheets/index.css">
 	<script src="https://kit.fontawesome.com/7be4e2fa54.js" crossorigin="anonymous"></script>
-	<title>DrinkApp</title>
+    <title>DrinkApp</title>
 </head>
 
 <body>
-	<header class="fixed-top">
-		<nav class="navbar navbar-expand-lg navbar-light bg-nav px-5 ">
-			<div class="container">
-				<img src="./assets/images/logo/logo.png" alt="logo" width="50px" height="50px" />
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-					<ul class="navbar-nav ">
-						<li class="nav-item">
-							<a class="nav-link text-white" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white" href="gallery.html">Gallery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white" href="about.html">About us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white " href="contact.html">Contact us</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="mx-sm-5 d-none d-md-none d-lg-flex align-items-center">
-				<img src="./Icons/search.svg" alt="search" class="mx-2">
-				<img src="./Icons/cart.svg" alt="cart" class="mx-2 " id="cart-item">
-				<img src="./Icons/person-circle.svg" alt="user" class="mx-2 ">
-				<ul class="theme__toggle theme__toggle-js d-flex align-items-center mb-0">
-					<li class="theme__toggle--dark">Dark <i class="ms-1 fa-solid fa-moon"></i></li>
-					<li class="theme__toggle--light">Light <i class="ms-1 fa-solid fa-sun"></i></li>
+<header class="fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-nav px-5 ">
+		<div class="container">
+			<img src="./assets/images/logo/logo.png" alt="logo" width="50px" height="50px" />
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav ">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="about.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white " href="contact.html">Contact us</a>
+					</li>
 				</ul>
 			</div>
-		</nav>
-	</header>
+		</div>
+		<div class="mx-sm-5 d-none d-md-none d-lg-flex align-items-center">
+			<img src="./Icons/search.svg" alt="search" class="mx-2">
+			<img src="./Icons/cart.svg" alt="cart" class="mx-2 " id="cart-item">
+			<img src="./Icons/person-circle.svg" alt="user" class="mx-2 ">
+			<ul class="theme__toggle theme__toggle-js d-flex align-items-center mb-0">
+				<li class="theme__toggle--dark">Dark <i class="ms-1 fa-solid fa-moon"></i></li>
+				<li class="theme__toggle--light">Light <i class="ms-1 fa-solid fa-sun"></i></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+		<main>
+		<section class="bg-nav rollit">
+			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner" data-bs-interval="5000">
+				<div class="carousel-item active">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/group.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/skylake.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/adam.jpg" alt="Third slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/kazuend.jpg" alt="Fourth slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/helena.jpg" alt="Fifth slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/grapejuice.jpg" alt="Sixth slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/ash.jpg" alt="Seventh slide">
+				</div>
+				<div class="carousel-item" data-bs-interval="5000">
+					<img class="d-block w-50 holla img-fluid" src="assets/images/backdrops/wine.jpeg" alt="Eight slide">
+				</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+
+
+		<section class="bg-light pt-4">
+			<div class="text-center">
+				<div>
+					<h1 class="text-black ">Why DrinkApp?</h1>
+				</div>
+				<div class="pt-4">
+					<p class="fs-4 px-5">
+						We promise you a range of quality drinks and liquors as we also relieive you of the stress of
+						going to buy drinks from physical stress as we process all orders for you. We exist to be
+						stressed by you please.
+					</p>
+					<img class="pt-4 mb-5" src="assets/two-wine-glass-cup.jpg" alt="two-wine-glass-cup">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="yol">
+			<div>
+				<div>
+					<h2 class="ps-3 pt-2">Explore popular categories</h2>
+				</div>
+				<div class="d-lg-flex flex-lg-row d-md-flex flex-md-row d-sm-flex flex-sm-col justify-content-center text-center pt-4 div-category" id="category-area">
+					<div class="col-3">
+						<img class="img-fluid w-75 rounded" src="assets/images/cognac.jpg" alt="">
+						<p class="text-black font-weight-bold">Cognac <span><img src="icons/arrow-right-short.svg" alt=""></span></p>
+					</div>
+					<div class="col-3">
+						<img class="img-fluid w-75 rounded" src="assets/images/cognac.jpg" alt="">
+						<p class="text-black font-weight-bold">Cognac <span><img src="icons/arrow-right-short.svg" alt=""></span></p>
+					</div>
+					<div class="col-3">
+						<img class="img-fluid w-75 rounded" src="assets/images/cognac.jpg" alt="">
+						<p class="text-black font-weight-bold">Cognac <span><img src="icons/arrow-right-short.svg" alt=""></span></p>
+					</div>
+					<div class="col-3">
+						<img class="img-fluid w-75 rounded" src="assets/images/cognac.jpg" alt="">
+						<p class="text-black font-weight-bold">Cognac <span><img src="icons/arrow-right-short.svg" alt=""></span></p>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+
+
+		<section>
+			<div>
+				<div>
+					<h2 class="pt-4 text-black text-center">Get the best of all drinks</h2>
+				</div>
+				<div>
+					<div class="d-lg-flex flex-lg-row d-md-flex flex-md-row d-sm-flex flex-sm-col justify-content-center text-center pt-5">
+						<div class="col-lg-6 col-md-5 col-sm-auto">
+							<img src="assets/winer.jpg" alt="" class="img-fluid w-75 rounded">
+							<div>
+								<p>Seasonal sales!</p>
+								<p>Time for party</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-5 col-sm-auto">
+							<img src="assets/woman.jpg" alt="" class="img-fluid w-75 rounded ">
+							<div>
+								<p>Amazing sales</p>
+								<p>#DrinkApp</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-lg-flex flex-lg-row d-md-flex flex-md-row d-sm-flex flex-sm-col text-center justify-content-center flex-wrap pt-4">
+						<div class="me-2 col-lg-5 col-md-4 col-sm-auto polka">
+							<img src="assets/photo3.jpg" alt="">
+							<span>Convenient Delivery</span>
+						</div>
+						<div class="me-2 col-lg-5 col-md-4 col-sm-auto polka">
+							<img src="assets/photo3.jpg" alt="">
+							<span>Quality Assurance</span>
+						</div>
+						<div class="me-2 col-lg-5 col-md-4 col-sm-auto polka">
+							<img src="assets/photo3.jpg" alt="">
+							<span>Variety of Choice</span>
+						</div>
+						<div class="me-2 col-lg-5 col-md-4 col-sm-auto polka">
+							<img src="assets/photo3.jpg" alt="">
+							<span>Purchase Security</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</section>
+
+
+		<section class="mt-5">
+			<div class="pt-5 py-5 come ">
+				<div class="testimonials-container py-5">
+					<div class="progress-bar"></div>
+					<div class="fa fa-quote-left fa-quote"></div>
+					<div class="fa fa-quote-right fa-quote"></div>
+					<p class="testimonial">
+						I've worked with literally hundreds of Drink suppliers. 
+						These guys go over and beyond without a glitch- every time!
+					</p>
+					<div class="centered-items">
+						<img class="logo img-fluid pull-up" src="assets/images/backdrops/group.jpg" alt="logo"/>
+						<div class="user-details">
+							<h4 class="username">Miyah Myles</h4>
+							<p class="role">Marketer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</main>
+
 
 	<footer class="footer p-5">
 		<div class="container-fluid">
@@ -74,22 +233,26 @@
 						</div>
 					</div>
 				</div>
-				<hr>
-				<div class="col md 6 d-flex justify-content-between tag">
-					<h6 class="tag">TERMS AND CONDITIONS POLICY</h6>
-					<h6 class="tag"> &copy; 2022 All Rights Reserved</h6>
-				</div>
+					<hr>
+						<div class="col md 6 d-flex justify-content-between tag">
+							<h6 class="tag">TERMS AND CONDITIONS POLICY</h6>
+							<h6 class="tag"> &copy; 2022 All Rights Reserved</h6>
+						</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-center">
-			<p class="toucans">Coded with ❤ by v37-Toucans-team-tier-01</p>
-		</div>
+				<div class="d-flex justify-content-center">
+					<p class="toucans">Coded with ❤ by v37-Toucans-team-tier-01</p>
+				</div>
 	</footer>
+		
 
 
-	<script src="js/script.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/30c7691618.js" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/landingpage.js"></script>
+		<script src="js/theme.js"></script>
+		
 </body>
 
 </html>
