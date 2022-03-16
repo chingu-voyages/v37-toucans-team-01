@@ -74,7 +74,7 @@
             </div>
             <section class="drinks" >
             
-                <div class="row" id="gallery-drinks">
+                <div class="row add-pointer" id="gallery-drinks">
                     <div class="col-md-4">
                         <div class="card h-75 my-5">
                             <p class="card-text text-center h3 text-muted mt-2">Busch</p>
@@ -84,8 +84,8 @@
                             </div>
                         </div>
                         <div class="d-flex">
-                            <button type="button" class="btn btn-outline-secondary btn-lg p-2 carts">Add to cart</button>
-                            <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="contact.html" target="_blank" class="text-danger text-decoration-none fs-6">Read More</a></button>
+                            <button onclick="totalClick(0)" type="button" class="btn add-cart-btn btn-outline-secondary btn-lg p-2 carts">Add to cart</button>
+                            <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="productPage.html" target="_blank" class="text-danger text-decoration-none fs-6">Read More</a></button>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
         <section class="bg-feedback py-2">
             <div class="text-center">
                 <h4 class="fw-bold">We’d love to hear what you think!</h4>
-                <button type="button" class="text-black btn btn-outline-secondary btn-lg p-3 rounded-pill">Give a feedback</button>
+                <a href="contact.html"><button type="button" class="text-black btn btn-outline-secondary btn-lg p-3 rounded-pill">Contact us</button></a>
             </div>
         </section>
     </main>
@@ -161,5 +161,7 @@
     <script src="js/theme.js"></script>
     <script src="js/bootstrap.min.js"></script>  
     <script src="/js/gallery.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+    <script src="js/productPage.js"></script>
 </body>
 </html>
