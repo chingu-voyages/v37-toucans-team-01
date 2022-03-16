@@ -4,6 +4,10 @@
     background-color: #C4C4C4;
 }
 
+.add-pointer {
+    cursor: pointer;
+}
+
 .btn,
 a {
     font-weight: bold;
@@ -53,3 +57,13 @@ a {
     }
 }
 
+.zero11 {
+    position: absolute;
+    margin-right: 100px;
+    color: white;
+    font-size: 60%
+ } 
+
+ .mx-2 {
+     margin-right: 0!important; 
+ }
