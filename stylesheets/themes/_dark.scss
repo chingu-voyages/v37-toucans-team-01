@@ -1,0 +1,28 @@
+//toggle
+.theme__toggle {
+    list-style-type: none;
+    display: flex;
+
+    &--dark,
+    &--light {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #1b1b1b;
+        padding: 8px 12px;
+        color: white;
+    } 
+
+
+    &--light{
+        color:#1b1b1b;
+        background-color: white;
+    }
+}
+
+
+body.dark-theme {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    transition: background-color 1.5s;
+}

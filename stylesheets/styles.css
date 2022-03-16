@@ -19,6 +19,11 @@
 /**
  * Basic styles for links
  */
+body {
+  -webkit-transition: background-color 1.5s;
+  transition: background-color 1.5s;
+}
+
 /**
  * Basic typography style for copy text
  */
@@ -526,5 +531,121 @@ a {
     margin: 10px 0;
     font-size: 20px;
   }
+}
+
+.about header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.about header img {
+  width: 500px;
+}
+
+.about section p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 900px) {
+  .about section p {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+}
+
+.contact {
+  padding: 100px 0;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1400px;
+}
+
+.contact .contact-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.contact .contact-subheading {
+  text-align: center;
+}
+
+.contact .contact-form {
+  padding: 50px 0;
+  width: 70%;
+}
+
+.contact .contact-newsletter {
+  width: 70%;
+  padding: 40px 50px;
+  margin: 100px auto;
+}
+
+.contact .contact-newsletter h2 {
+  text-align: center;
+}
+
+.contact .card-group {
+  width: 70% !important;
+  margin: auto;
+  gap: 20px;
+}
+
+.contact .card-group .card {
+  border: none;
+}
+
+.contact .card-group .card-body {
+  border: 1px solid rgba(128, 128, 128, 0.431);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .toucans {
+    font-size: 11px;
+  }
+}
+
+.theme__toggle {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.theme__toggle--dark, .theme__toggle--light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b1b1b;
+  padding: 8px 12px;
+  color: white;
+}
+
+.theme__toggle--light {
+  color: #1b1b1b;
+  background-color: white;
+}
+
+body.dark-theme {
+  background-color: #181818;
+  color: white;
+  -webkit-transition: background-color 1.5s;
+  transition: background-color 1.5s;
 }
 /*# sourceMappingURL=styles.css.map */
