@@ -39,10 +39,11 @@
 					</ul>
 				</div>
 			</div>
+
 			<div class="mx-sm-5 d-none d-md-none d-lg-flex align-items-center">
 				<img src="./Icons/search.svg" alt="search" class="mx-2">
 				<img src="./Icons/cart.svg" alt="cart" class="mx-2 " id="cart-item">
-				<img src="./Icons/person-circle.svg" alt="user" class="mx-2 ">
+				<a href="signup.html"><img src="./Icons/person-circle.svg" alt="user" class="mx-2 "></a>
 				<ul class="theme__toggle theme__toggle-js d-flex align-items-center mb-0">
 					<li class="theme__toggle--dark">Dark <i class="ms-1 fa-solid fa-moon"></i></li>
 					<li class="theme__toggle--light">Light <i class="ms-1 fa-solid fa-sun"></i></li>
@@ -57,15 +58,15 @@
     <form class="row g-3 contact-form mx-auto">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <input type="email" class="form-control" id="inputEmail4" required>
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4">
+        <input type="password" class="form-control" id="inputPassword4" required>
       </div>
       <div class="col-md-12">
         <label for="inputState" class="form-label">What can we help you with?</label>
-        <select id="inputState" class="form-select">
+        <select id="inputState" class="form-select" required>
           <option selected>Choose a topic to discuss</option>
           <option value="Issue with a product">Issue with a product</option>
           <option value="Help with your account">Help with your account</option>

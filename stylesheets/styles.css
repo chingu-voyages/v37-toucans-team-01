@@ -138,6 +138,142 @@ input[type=text] {
   }
 }
 
+.holla {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yol {
+  background-color: #f09090;
+}
+
+.div-category {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* testimonial box */
+.testimonials-container {
+  background-color: #476ce4;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  color: #ffffff;
+  width: 100%;
+  max-width: 100%;
+  padding: 50px 80px;
+  position: relative;
+}
+
+.come {
+  background-color: #476ce4;
+}
+
+.pull-up {
+  width: 10%;
+}
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  right: 40px;
+}
+
+.fa-quote-left {
+  left: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: center;
+}
+
+.centered-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user-details {
+  margin-left: 10px;
+}
+
+.username {
+  margin: 0;
+}
+
+.role {
+  font-weight: normal;
+  margin: 2px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  -webkit-animation: grow 10s linear infinite;
+          animation: grow 10s linear infinite;
+  -webkit-transform-origin: initial;
+          transform-origin: initial;
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-container {
+    padding: 20px 30px;
+  }
+  .fa-quote {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .rollit {
+    padding-top: 5rem;
+  }
+  .polka {
+    display: block;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .fa-quote-left, .fa-quote-right {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 .bg-filter,
 .bg-feedback {
   background-color: #C4C4C4;
@@ -245,6 +381,14 @@ a {
 
 .contact .card-group .card {
   border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact .card-group .card:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 20px;
 }
 
 .contact .card-group .card-body {
@@ -257,6 +401,10 @@ a {
   .toucans {
     font-size: 11px;
   }
+}
+
+.login-page {
+  height: 80vh;
 }
 
 .product-main {
@@ -529,142 +677,11 @@ a {
     margin: 0;
     margin: 10px 0;
     font-size: 20px;
-
-.holla {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.yol {
-  background-color: #f09090;
-}
-
-.div-category {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-/* testimonial box */
-.testimonials-container {
-  background-color: #476ce4;
-  text-align: center;
-  border-radius: 15px 15px 0 0;
-  color: #ffffff;
-  width: 100%;
-  max-width: 100%;
-  padding: 50px 80px;
-  position: relative;
-}
-
-.come {
-  background-color: #476ce4;
-}
-
-.pull-up {
-  width: 10%;
-}
-
-.fa-quote {
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 28px;
-  position: absolute;
-  top: 70px;
-}
-
-.fa-quote-right {
-  right: 40px;
-}
-
-.fa-quote-left {
-  left: 40px;
-}
-
-.testimonial {
-  line-height: 28px;
-  text-align: center;
-}
-
-.centered-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.logo {
-  border-radius: 50%;
-  height: 75px;
-  width: 75px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.user-details {
-  margin-left: 10px;
-}
-
-.username {
-  margin: 0;
-}
-
-.role {
-  font-weight: normal;
-  margin: 2px 0;
-}
-
-.progress-bar {
-  background-color: #fff;
-  height: 4px;
-  width: 100%;
-  -webkit-animation: grow 10s linear infinite;
-          animation: grow 10s linear infinite;
-  -webkit-transform-origin: initial;
-          transform-origin: initial;
-}
-
-@-webkit-keyframes grow {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
   }
 }
 
-@keyframes grow {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-}
-
-@media (max-width: 768px) {
-  .testimonials-container {
-    padding: 20px 30px;
-  }
-  .fa-quote {
-    display: none;
-  }
-}
-
-@media (max-width: 425px) {
-  .rollit {
-    padding-top: 5rem;
-  }
-  .polka {
-    display: block;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-  .fa-quote-left, .fa-quote-right {
-    display: none;
-    visibility: hidden;
-
-  }
+.about {
+  padding: 150px 0;
 }
 
 .about header {
@@ -693,6 +710,17 @@ a {
     font-size: 20px;
     line-height: 1.7;
   }
+}
+
+.about h2 {
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.about h2:hover {
+  color: red;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 
 .contact {
@@ -734,6 +762,14 @@ a {
 
 .contact .card-group .card {
   border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact .card-group .card:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 20px;
 }
 
 .contact .card-group .card-body {
@@ -746,6 +782,10 @@ a {
   .toucans {
     font-size: 11px;
   }
+}
+
+.login-page {
+  height: 80vh;
 }
 
 .theme__toggle {
@@ -777,9 +817,27 @@ a {
 }
 
 body.dark-theme {
-  background-color: #181818;
-  color: white;
+  background-color: #181818 !important;
+  color: white !important;
   -webkit-transition: background-color 1.5s;
   transition: background-color 1.5s;
+}
+
+body.dark-theme .bg-darkmode {
+  background-color: #181818 !important;
+  color: white !important;
+}
+
+body.dark-theme p,
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme div {
+  color: white !important;
+}
+
+body.dark-theme .contact .card {
+  background-color: #1b1b1b;
+  border: lightgray 1px solid;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

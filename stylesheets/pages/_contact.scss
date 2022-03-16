@@ -43,6 +43,11 @@
 
         .card {
             border: none;
+            transition:all 0.2s ease-in-out;
+            &:hover{
+                transition:all 0.5s ease-in-out;
+                padding: 20px;
+            }
         }
         .card-body{
             border: 1px solid rgba(128, 128, 128, 0.431);
@@ -57,4 +62,9 @@
             font-size: 11px;
         }
 
+    }
+
+
+    .login-page{
+        height: 80vh;
     }
