@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
   <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/84210e017a.js" crossorigin="anonymous"></script>
   <title>DrinkApp | Contact Us</title>
 </head>
 
@@ -127,9 +128,30 @@
 
       </div>
     </section>
+
+
     
   </main>
 
+  <section class="chat-container">
+
+    <button class="open-button" onclick="openForm()"><i
+            class="fa-solid fa-headset fa-3x"></i></i></button>
+
+
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea name="msg" placeholder="Type message..." required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+  </section>
+  
 
   <!-- footer -->
   <footer class="bg-footer p-5">
@@ -169,6 +191,7 @@
   <!-- scripts -->
   <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="./js/chatbox.js"></script>
 </body>
 
 </html>

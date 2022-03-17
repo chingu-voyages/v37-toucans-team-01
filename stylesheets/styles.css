@@ -164,8 +164,9 @@ input[type=text] {
 
 .contact {
   padding: 100px 0;
+  padding-bottom: 50px;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   max-width: 1400px;
 }
 
@@ -222,11 +223,12 @@ input[type=text] {
 
 .open-button {
   background-color: white;
-  position: fixed;
+  position: relative;
   border: none;
   cursor: pointer;
-  bottom: 17rem;
-  right: 28px;
+  bottom: 0;
+  left: 80rem;
+  margin-bottom: 5px;
 }
 
 /* The popup chat - hidden by default */
