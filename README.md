@@ -114,12 +114,9 @@ DrinkApp allows customers to know the type of drink they want in seconds, no mat
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-### Prerequisites
-
-
-  1. Open your vscode create an html file that your page layout.
+1. Open your vscode create an html file that your page layout.
   
 
  2. Clone the repo
