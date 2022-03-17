@@ -67,22 +67,15 @@ v37-toucans-team-01/issues">Request Feature</a>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+          <li><a href="#built-with">Built With</a></li>
+          <li><a href="#getting-started">Getting Started</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#contributing">Contributing</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#acknowledgments">Acknowledgments</a></li>
+          <li><a href="#contributors">Contributors</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    </li>      
   </ol>
 </details>
 
@@ -99,7 +92,7 @@ v37-toucans-team-01
 
 project_title: An e-commerce web app for drinks. 
 
-project_description:This project will allow users to search for products before going to the store to buy them.
+project_description: This project will allow users to search for products before going to the store to buy them.
 DrinkApp allows customers to know the type of drink they want in seconds, no matter where they are. As a result, less time is spent waiting at the shop or store and more time is spent buying other things.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -191,17 +184,10 @@ Don't forget to give the project a star! Thanks again!
 Distributed under the MIT License. See 
 `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-
- 
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle]() 
 <!-- I believe when we finally deploy we put the link of the project -->
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+<!-- Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -210,6 +196,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [Jim Medlock](https://github.com/jdmedlock)
+* Images from [Unsplash ](https://unsplash.com/) and [Pixabay ](https://www.pexels.com/) 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
