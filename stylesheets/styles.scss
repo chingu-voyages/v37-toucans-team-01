@@ -27,9 +27,14 @@
 // 6. Page-specific styles
 @import
   'pages/homepage',
+  'pages/gallery',
+  'pages/contact',
+  'pages/productpage',
   'pages/about',
   'pages/contact',
   'pages/chatbox';
 
 
-
+//7. themes
+@import
+  'themes/dark';

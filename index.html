@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-    <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
-	<script src="https://kit.fontawesome.com/84210e017a.js" crossorigin="anonymous"></script>
-    <title>DrinkApp</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/7be4e2fa54.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/7be4e2fa54.js" crossorigin="anonymous"></script>
+	<title>DrinkApp</title>
 </head>
+
 <body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-nav px-5 ">
+	<header class="fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-nav px-5 ">
 			<div class="container">
-				<img src="./assets/images/logo/logo.png" alt="logo" width="50px"height="50px"/>
-                    <button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-                        <span class="navbar-toggler-icon"></span>
-					</button>
+				<img src="./assets/images/logo/logo.png" alt="logo" width="50px" height="50px" />
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 					<ul class="navbar-nav ">
 						<li class="nav-item">
-							<a class="nav-link text-white" href="/">Home</a>
+							<a class="nav-link text-white" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-white" href="gallery.html">Gallery</a>
@@ -43,11 +39,16 @@
 					</ul>
 				</div>
 			</div>
-            <div class="mx-sm-5 d-none d-md-block d-lg-block">
-                <img src="./Icons/search.svg" alt="search" class="mx-2">
-                <img src="./Icons/cart.svg" alt="cart" class="mx-2 " id="cart-item">
-                <img src="./Icons/person-circle.svg" alt="user" class="mx-2 ">
-            </div>
+
+			<div class="mx-sm-5 d-none d-md-none d-lg-flex align-items-center">
+				<img src="./Icons/search.svg" alt="search" class="mx-2">
+				<img src="./Icons/cart.svg" alt="cart" class="mx-2 " id="cart-item">
+				<a href="signup.html"><img src="./Icons/person-circle.svg" alt="user" class="mx-2 "></a>
+				<ul class="theme__toggle theme__toggle-js d-flex align-items-center mb-0">
+					<li class="theme__toggle--dark">Dark <i class="ms-1 fa-solid fa-moon"></i></li>
+					<li class="theme__toggle--light">Light <i class="ms-1 fa-solid fa-sun"></i></li>
+				</ul>
+			</div>
 		</nav>
     </header>
 
@@ -60,18 +61,21 @@
 				<div class="col-md-6 p-2 border-end mb-3">
 					<div class="d-flex ">
 						<h5 class="mx-2 text-white pt-2 tag">SUBSCRIBE TO OUR NEWSLETTER</h5>
-							<form class="sub-form">
-								<input type="text" placeholder="ENTER YOUR EMAIL ADDRESS HERE" class="p-2 rounded-3 border-0"id="input">
-							</form><span class="arrow"><img src="./Icons/arrow-right-short.svg" alt="arrow" class="arrow1"id="arrow-img"></span>
-						</div> 
+						<form class="sub-form">
+							<input type="text" placeholder="ENTER YOUR EMAIL ADDRESS HERE"
+								class="p-2 rounded-3 border-0" id="input">
+						</form><span class="arrow"><img src="./Icons/arrow-right-short.svg" alt="arrow" class="arrow1"
+								id="arrow-img"></span>
+					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="d-flex p-2">
 						<h4 class="mx-5 tag">JOIN US ON</h4>
 						<div>
-							<img src="./Icons/facebook.png" alt="facebook"width="30px"height="30px" class="mx-3 tag">
-							<img src="./Icons/twitter.png" width="30px"height="30px"alt="twitter" class="mx-3 tag">
-							<img src="./Icons/instagram.png"width="30px"height="30px" alt="instagram"class="mx-3 tag">
+							<img src="./Icons/facebook.png" alt="facebook" width="30px" height="30px" class="mx-3 tag">
+							<img src="./Icons/twitter.png" width="30px" height="30px" alt="twitter" class="mx-3 tag">
+							<img src="./Icons/instagram.png" width="30px" height="30px" alt="instagram"
+								class="mx-3 tag">
 						</div>
 					</div>
 				</div>
@@ -86,10 +90,19 @@
 			<p class="toucans">Coded with ❤ by v37-Toucans-team-tier-01</p>
 		</div>
 	</footer>
-    
 
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="./js/chatbox.js"></script>
+
+
+	<!-- js scripts -->
+	<script src="https://kit.fontawesome.com/30c7691618.js" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/landingpage.js"></script>
+	<script src="js/theme.js"></script>
+
 </body>
+
 </html>

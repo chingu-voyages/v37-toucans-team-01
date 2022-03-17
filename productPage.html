@@ -7,10 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-  <script src="https://kit.fontawesome.com/7be4e2fa54.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/84210e017a.js" crossorigin="anonymous"></script>
-  <title>DrinkApp | About Us</title>
+  <title>DrinkApp | product</title>
 </head>
 
 <body>
@@ -53,65 +51,69 @@
 		</nav>
 	</header>
 
+  <main class="product-main my-lg-5">
+    <div class="product-container">
 
-  <main class="about w-75 mx-auto pb-lg-4 ">
-    <header class="mx-auto">
-      <img src="assets/images/backdrops/about.jpg" alt="group of friends holding red wine" class="mx-auto">
-      <h1 class=" mt-3 mb-5 text-center text-decoration-underline">About DrinkApp.com</h1>
-    </header>
-    <section>
-      <h2 class="fs-1 mt-4">Who we are</h2>
-      <p>DrinkApp is a beverage e-commerce solution to allow individuals access to there favorite drinks anytime, anyway.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-    </section>
-    <section>
-      <h2 class="fs-1 mt-5">Our values</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-    </section>
-    <section>
-      <h2 class="fs-1 mt-5">Customer satisfaction</h2>
-      <p>Get in touch with our team today <a href="contact.html">here</a></p>
-    </section>
+      <div class="box1">
+        <img class="img-1" src="./assets/images/products/related product 2.jpg" />
+      </div>
+
+
+      <div class="box2">
+        <p class="snk-p ">Drink APP</p>
+        <h2 class="fall-h2">Name of Product</h2>
+        <div class="last-child">
+          <div class="child">
+            <h2 class="price1">$35.50</h2>
+
+          </div>
+          <p class="descrpt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Gravida neque convallis a cras semper auctor neque vitae tempus.
+          </p>
+        </div>
+
+
+        <button class="plus-btn"><span onclick="totalClick(-1)" class="minus all">-</span><span id="totalClicks"
+            class="zero all">0</span><span onclick="totalClick(1)" class="plus all">+</span></button>
+        <button onclick="totalClick(0)" class="add-cart-btn"><span>Add to cart</span></button>
+
+      </div>
+
+    </div>
+
+
+    <h1 class="h1-r">Related Product</h1>
+    <div class="inner-div">
+      <div class="r-box">
+        <h2 class="h2-related">Name of product</h2>
+        <img class="img-2" src="./assets/images/products/beverage5.jpg" />
+        <h2 class="h2-related">$15</h2>
+      </div>
+
+      <div class="r-box">
+        <h2 class="h2-related">Name of product</h2>
+        <img class="img-2" src="assets/images/products/beverage4.jpg" />
+        <h2 class="h2-related">$15</h2>
+      </div>
+
+      <div class="r-box">
+        <h2 class="h2-related">Name of product</h2>
+        <img class="img-2" src="assets/images/products/related product4.jpg" />
+        <h2 class="h2-related">$20</h2>
+
+      </div>
+
+      <div class="r-box">
+        <h2 class="h2-related">Name of product</h2>
+        <img class="img-2" src="assets/images/products/beverage2.jpg" />
+        <h2 class="h2-related">$25</h2>
+      </div>
+
+    </div>
   </main>
 
-  
-  <section class="chat-container">
-
-    <button class="open-button" onclick="openForm()"><i
-            class="fa-solid fa-headset fa-3x"></i></i></button>
-
-
-    <div class="chat-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-            <h1>Chat</h1>
-
-            <label for="msg"><b>Message</b></label>
-            <textarea name="msg" placeholder="Type message..." required></textarea>
-
-            <button type="submit" class="btn">Send</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-    </div>
-  </section>
 
   <!-- footer -->
   <footer class="bg-footer p-5">
@@ -149,10 +151,8 @@
   </footer>
 
   <!-- scripts -->
-  <script src="js/theme.js"></script>
   <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="./js/chatbox.js"></script>
+  <script src="js/productPage.js"></script>
+  <script src="js/theme.js"></script>
 </body>
-
-</html>

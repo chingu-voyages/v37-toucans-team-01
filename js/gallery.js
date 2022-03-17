@@ -1,3 +1,5 @@
+// To get the db for gallery i created an array manuel
+
 let drinks = [
 	{
 		name: 'Busch Beer',
@@ -6,7 +8,7 @@ let drinks = [
 		id: 1,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+
 	},
 	{
 		name: 'Pabst Blue Ribbon Beer',
@@ -15,7 +17,7 @@ let drinks = [
 		id: 2,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'Edelweiss Wheat Beer',
@@ -24,16 +26,16 @@ let drinks = [
 		id: 3,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'Heineken beer',
-		img: 'beer4.jpg',
+		img: 'beer4b.jpg',
 		price: '$0.62',
 		id: 4,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: 'Damm lemon Beer',
@@ -42,7 +44,7 @@ let drinks = [
 		id: 5,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+
 	},
 	{
 		name: 'peroni Gran Riserva',
@@ -51,7 +53,7 @@ let drinks = [
 		id: 6,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: ' Carbonated soft drinks',
@@ -60,7 +62,7 @@ let drinks = [
 		id: 7,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: ' Real orange fruit juice',
@@ -69,7 +71,7 @@ let drinks = [
 		id: 8,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'Real mixed fruit juice',
@@ -78,7 +80,7 @@ let drinks = [
 		id: 9,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'Real masala guava fruit juice',
@@ -87,7 +89,7 @@ let drinks = [
 		id: 10,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: 'Sparkling exotic juice drink',
@@ -96,7 +98,7 @@ let drinks = [
 		id: 11,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: 'Active 6B',
@@ -105,7 +107,7 @@ let drinks = [
 		id: 12,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'CATENA ZAPATA',
@@ -114,7 +116,7 @@ let drinks = [
 		id: 13,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: 'CLOS DE VOUGEOT',
@@ -123,7 +125,7 @@ let drinks = [
 		id: 14,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'harvest fruits mulled wine',
@@ -132,7 +134,7 @@ let drinks = [
 		id: 15,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+		
 	},
 	{
 		name: 'Belle & co sparkling wine',
@@ -141,7 +143,6 @@ let drinks = [
 		id: 14,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
 	},
 	{
 		name: 'Buckfast',
@@ -150,7 +151,7 @@ let drinks = [
 		id: 15,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
+	
 	},
 	{
 		name: 'Laurent-Perrier',
@@ -159,11 +160,13 @@ let drinks = [
 		id: 16,
 		button: 'Add to Cart',
 		link: 'Read More'
-		// inCart: 0
 	},
 ];
 
+
+
 let drinksSection = document.querySelector("#gallery-drinks");
+
 let html = "";
 drinks.forEach(drink => {
 	
@@ -179,30 +182,16 @@ drinks.forEach(drink => {
             </div>
 			<div class="d-flex">
 				<button type="button" class="btn btn-outline-secondary btn-lg p-2 mx-3 carts">${drink.button}</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="contact.html" target="_blank" class="text-danger text-decoration-none fs-6">${drink.link}</a></button>
+                <button type="button" class="btn btn-outline-secondary btn-lg p-2"><a href="productPage.html" target="_blank" class="text-danger text-decoration-none fs-6">${drink.link}</a></button>
 			</div>
 		</div>
     `;
-		drinksSection.innerHTML = html 
+		drinksSection.innerHTML = html
+		 
 });
 
 
 
-// function addToCart() {
-// 	let addBtn = document.querySelector('.carts');
-// 	cartNumbers();
-// }
-// function cartNumbers() {
-// 	let productNumbers = localStorage.getItem('cartNumbers');
-// 	productNumbers = parseInt(productNumbers);
-// 	if ( productNumbers ) {
-// 		localStorage.setItem('cartNumbers', productNumbers + 1);
-// 	    document.querySelector('.icon-cart .span-cart').innerHTML = productNumbers + 1;
 
-// 	} else {
-// 		localStorage.setItem('cartNumbers', 1)
-// 		document.querySelector('.icon-cart .span-').innerHTML = 1;
-// 	}
-	
-	
-// }
+
+
