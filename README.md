@@ -135,7 +135,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Download Bootstrap
    ```sh
-   <a href = "https://getbootstrap.com" target="_blank"> To download Bootstrap</
+   <a href = "https://getbootstrap.com" target="_blank"> To download Bootstrap</a>
    ```
 
 
