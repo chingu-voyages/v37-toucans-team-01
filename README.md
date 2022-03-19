@@ -82,13 +82,13 @@ v37-toucans-team-01/issues">Request Feature</a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<!-- [![<img width="1437" alt="Screenshot 2022-03-19 at 20 41 11" src="https://user-images.githubusercontent.com/90143819/159137741-5ae89e6f-568f-48a5-9a92-4832d51e3a4b.png">]](https://drink-app-project.netlify.app/) -->
 
 Repo_name: chingu-voyages/v37-toucans-team-01
 
-project_title: An e-commerce web app for drinks. 
+project_title: DrinkApp
 
-project_description: This project will allow users to search for products before going to the store to buy them.
+project_description: An e-commerce web app for drinks. This project will allow users to search for products before going to the store to buy them.
 DrinkApp allows customers to know the type of drink they want in seconds, no matter where they are. As a result, less time is spent waiting at the shop or store and more time is spent buying other things.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -198,7 +198,7 @@ Distributed under the MIT License. See
 * [Mrjay](https://github.com/Jaybabaa)
 * [Ifrah](https://github.com/i-f-r-a-h)
 * [Ijay](https://github.com/ijayhub)
-* [king_samuel)](https://github.com/frugalcodes)
+* [king_samuel](https://github.com/frugalcodes)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
